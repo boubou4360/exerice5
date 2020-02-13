@@ -8,6 +8,7 @@
     <title>Exercie #5</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+   <script src="js/genElement.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap"
         rel="stylesheet">
 </head>
@@ -73,11 +74,11 @@
                         5
                     </div>
                 </div>
-                <a href="#slide-1">1</a>
-                <a href="#slide-2">2</a>
-                <a href="#slide-3">3</a>
-                <a href="#slide-4">4</a>
-                <a href="#slide-5">5</a>
+                <a class = "boutonSlider" href="#slide-1">1</a>
+                <a class = "boutonSlider" href="#slide-2">2</a>
+                <a class = "boutonSlider" href="#slide-3">3</a>
+                <a class = "boutonSlider" href="#slide-4">4</a>
+                <a class = "boutonSlider" href="#slide-5">5</a>
             </div>
                  </section>
     </main>
@@ -127,6 +128,9 @@
                 elmChkMenu.checked = false
             }
         })
+        
     })
+
+    genSlider();
 </script>
 </html>
