@@ -1,4 +1,5 @@
 function genSlider() {
+var tableauImg = ["1.jpg","2.jpeg","3.jpeg","4.jpeg","5.jpg"] 
 var boutonSlider =  document.querySelectorAll(".boutonSlider");
 let sectionSlider = document.querySelector(".slides");
 console.log(boutonSlider);
