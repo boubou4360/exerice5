@@ -7,5 +7,7 @@ console.log(sectionSlider);
 for(let i=0; i<boutonSlider.length; i++){
     console.log(boutonSlider[i]);
     let imageSlider = document.createElement("div");
+    imageSlider.id = "slide-" + (i + 1);
+    sectionSlider.appendChild(imageSlider);
 }
 }
