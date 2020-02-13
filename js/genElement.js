@@ -5,6 +5,7 @@ console.log(boutonSlider);
 console.log(sectionSlider);
 
 for(let i=0; i<boutonSlider.length; i++){
-    
+    console.log(boutonSlider[i]);
+    let imageSlider = document.createElement("div");
 }
 }
