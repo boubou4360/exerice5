@@ -1,6 +1,6 @@
 function genSlider() {
 var boutonSlider =  document.querySelectorAll(".boutonSlider");
-let sectionSlider = document.querySelector("slides");
+let sectionSlider = document.querySelector(".slides");
 console.log(boutonSlider);
 console.log(sectionSlider);
 
