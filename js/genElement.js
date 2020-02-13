@@ -7,8 +7,13 @@ console.log(sectionSlider);
 
 for(let i=0; i<boutonSlider.length; i++){
     console.log(boutonSlider[i]);
-    let imageSlider = document.createElement("div");
-    imageSlider.id = "slide-" + (i + 1);
-    sectionSlider.appendChild(imageSlider);
+    let divSlider = document.createElement("div");
+    let imageSlider = document.createElement("img");
+    imageSlider.src = "../img/"+ tableauImg[i];
+    divSlider.appendChild(imageSlider);
+    divSlider.id = "slide-" + (i + 1);
+    
+    sectionSlider.appendChild(divSlider);
+    
 }
 }
